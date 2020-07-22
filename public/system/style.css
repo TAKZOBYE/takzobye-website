@@ -103,10 +103,6 @@ nav .sub-menu a:hover {
 
 .main {
     display: flex;
-    margin: 20px;
-    border-radius: 20px;
-    border: 2px solid grey;
-    /* background-color: grey; */
 }
 
 .main .menu {
