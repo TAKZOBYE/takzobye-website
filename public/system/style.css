@@ -105,6 +105,11 @@ nav .sub-menu a:hover {
     display: flex;
 }
 
+.menu {
+    overflow: hidden;
+    word-break: break-all;
+}
+
 .main .menu {
     width: 16%;
     border-right: 2px solid grey;
@@ -232,6 +237,44 @@ nav .sub-menu a:hover {
 .card-text .button .contact:hover {
     background-color: lime;
     color: white;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 600px) {
+    header {
+        height: 800px;
+    }
+
+    .main .menu {
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .main .content {
+        width: 100%;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+}
+/* Small devices (portrait tablets & large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+/* Extra large devices (large laptops & desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
 }
 
 /* scrollbar CSS */
